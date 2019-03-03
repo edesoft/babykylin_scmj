@@ -20,7 +20,7 @@ exports.mysql = function(){
 //账号服配置
 exports.account_server = function(){
 	return {
-		CLIENT_PORT:9000,
+		CLIENT_PORT:9009,
 		HALL_IP:HALL_IP,
 		HALL_CLIENT_PORT:HALL_CLIENT_PORT,
 		ACCOUNT_PRI_KEY:ACCOUNT_PRI_KEY,
