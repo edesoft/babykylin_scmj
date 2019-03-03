@@ -10,9 +10,9 @@ var LOCAL_IP = 'localhost';
 exports.mysql = function(){
 	return {
 		HOST:'127.0.0.1',
-		USER:'root',
-		PSWD:'123456',//如果连接失败，请检查这里
-		DB:'db_scmj',//如果连接失败，请检查这里
+		USER:'majiang',
+		PSWD:'666666',//如果连接失败，请检查这里
+		DB:'majiang',//如果连接失败，请检查这里
 		PORT:3306,
 	}
 }
@@ -20,7 +20,7 @@ exports.mysql = function(){
 //账号服配置
 exports.account_server = function(){
 	return {
-		CLIENT_PORT:9000,
+		CLIENT_PORT:9009,
 		HALL_IP:HALL_IP,
 		HALL_CLIENT_PORT:HALL_CLIENT_PORT,
 		ACCOUNT_PRI_KEY:ACCOUNT_PRI_KEY,
