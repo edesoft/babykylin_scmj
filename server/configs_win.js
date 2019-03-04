@@ -10,9 +10,9 @@ var LOCAL_IP = 'localhost';
 exports.mysql = function(){
 	return {
 		HOST:'127.0.0.1',
-		USER:'root',
-		PSWD:'',
-		DB:'db_babykylin',
+		USER:'majiang',
+		PSWD:'666666',
+		DB:'majiang',
 		PORT:3306,
 	}
 }
